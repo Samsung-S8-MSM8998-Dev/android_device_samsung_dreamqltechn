@@ -191,9 +191,6 @@ BOARD_VNDK_RUNTIME_DISABLE := true
 BOARD_VNDK_VERSION := current
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
-# Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_dreamqlte
-TARGET_RECOVERY_DEVICE_MODULES := libinit_dreamqlte
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
