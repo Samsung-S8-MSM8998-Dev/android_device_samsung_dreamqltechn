@@ -70,9 +70,13 @@ function blob_fixup() {
         ;;
     vendor/lib/libdczoom.so)
         patchelf --remove-needed "libandroid.so" "${2}"
+        patchelf --remove-needed "libgui.so" "${2}"
         ;;
     vendor/lib64/lib-dplmedia.so)
         patchelf --remove-needed "libmedia.so" "${2}"
+        ;;
+    vendor/lib/libmmcamera_ppeiscore.so)
+        patchelf --remove-needed "libgui.so" "${2}"
         ;;
     esac
 }
