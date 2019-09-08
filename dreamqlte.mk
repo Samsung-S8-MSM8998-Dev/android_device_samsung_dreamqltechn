@@ -129,7 +129,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Snap \
+    libui_shim
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \

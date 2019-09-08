@@ -78,6 +78,12 @@ function blob_fixup() {
     vendor/lib/libmmcamera_ppeiscore.so)
         patchelf --remove-needed "libgui.so" "${2}"
         ;;
+    vendor/lib/libdczoom.so)
+        patchelf --add-needed "libui_shim.so" "${2}"
+        ;;
+    vendor/lib/libfusionLibrary.so)
+        patchelf --add-needed "libui_shim.so" "${2}"
+        ;;
     esac
 }
 
