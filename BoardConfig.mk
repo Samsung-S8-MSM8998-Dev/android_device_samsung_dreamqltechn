@@ -184,7 +184,7 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_USES_OLD_MNC_FORMAT := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
