@@ -41,7 +41,6 @@ ro.build.expect.trustzone                                     u:object_r:exporte
 
 # Sensors
 persist.sys.sensors.                                          u:object_r:vendor_sensors_prop:s0
-ro.xiaomi.sar_fusion                                          u:object_r:vendor_sensors_prop:s0
 sys.panel.                                                    u:object_r:sensors_panel_prop:s0
 
 # Thermal engine
