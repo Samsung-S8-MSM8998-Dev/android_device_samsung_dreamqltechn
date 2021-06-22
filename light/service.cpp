@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.xiaomi_msm8998"
+#define LOG_TAG "android.hardware.light@2.0-service.samsung_dreamqlte"
 
 #include <hidl/HidlTransportSupport.h>
 

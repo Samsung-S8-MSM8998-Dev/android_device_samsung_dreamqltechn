@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    DreamqlteDoze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -229,7 +229,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_msm8998
+    android.hardware.light@2.0-service.samsung_dreamqlte
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
@@ -373,4 +373,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/msm8998-common/msm8998-common-vendor.mk)
+$(call inherit-product, vendor/samsung/dreamqlte/dreamqlte-vendor.mk)
