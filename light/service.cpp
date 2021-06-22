@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.samsung_dreamqlte"
+#define LOG_TAG "android.hardware.light@2.0-service.dreamqlte"
 
 #include <hidl/HidlTransportSupport.h>
 
