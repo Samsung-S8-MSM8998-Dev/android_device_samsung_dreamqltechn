@@ -52,9 +52,6 @@ BOARD_KERNEL_CMDLINE := androidboot.console=ttyMSM0 androidboot.hardware=qcom us
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
 
-# ANT+
-BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dreamqlte, dreamqltechn
 
