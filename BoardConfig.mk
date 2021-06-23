@@ -196,4 +196,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from proprietary files
-include vendor/samsung/dreamqlte/BoardConfigVendor.mk
+include vendor/samsung/dreamqltechn/BoardConfigVendor.mk
