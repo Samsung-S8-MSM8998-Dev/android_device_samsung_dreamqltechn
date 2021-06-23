@@ -180,12 +180,6 @@ TARGET_USES_OLD_MNC_FORMAT := true
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
-# Treble
-BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
-BOARD_VNDK_RUNTIME_DISABLE := true
-BOARD_VNDK_VERSION := current
-PRODUCT_FULL_TREBLE_OVERRIDE := true
-
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
