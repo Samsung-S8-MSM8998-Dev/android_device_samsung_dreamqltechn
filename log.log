@@ -1,0 +1,461 @@
+21:19:27 Build sandboxing disabled due to nsjail error.
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+LINEAGE_VERSION=17.1-20210628-UNOFFICIAL-dreamqlte
+TARGET_PRODUCT=lineage_dreamqlte
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=generic
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.4.0-74-generic-x86_64-Ubuntu-20.04.2-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QQ3A.200805.001
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=device/samsung/dreamqlte vendor/samsung/dreamqltechn hardware/qcom-caf/msm8998
+============================================
+ninja: no work to do.
+ninja: no work to do.
+No need to regenerate ninja file
+No need to regenerate ninja file
+No need to regenerate ninja file
+Starting ninja...
+[  4% 1/23] build out/target/product/dreamqlte/obj/KERNEL_OBJ/.additional_config
+[  8% 2/23] IMS lib link: out/target/product/dreamqlte/system/app/ims/lib/arm64/libimscamera_jni.so
+[ 13% 3/23] IMS lib link: out/target/product/dreamqlte/system/app/ims/lib/arm64/libimsmedia_jni.so
+[ 17% 4/23] target Prebuilt: fstab.qcom (out/target/product/dreamqlte/obj/ETC/fstab.qcom_intermediates/fstab.qcom)
+[ 21% 5/23] WCNSS config ini link: out/target/product/dreamqlte/system/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
+[ 26% 6/23] WCNSS MAC bin link: out/target/product/dreamqlte/system/vendor/firmware/wlan/qca_cld/wlan_mac.bin
+[ 30% 7/23] Install: out/target/product/dreamqlte/system/vendor/etc/fstab.qcom
+[ 34% 8/23] Building Kernel Config
+make: Entering directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+make[1]: Entering directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+drivers/input/touchscreen/Kconfig:1238:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:21:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:22:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:23:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:24:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:24:warning: ignoring unsupported character ''
+drivers/Kconfig:237:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:6:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:6:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:8:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:9:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:10:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:11:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:12:warning: ignoring unsupported character ''
+warning: (SND_SOC_INT_CODEC && SND_SOC_EXT_CODEC && SND_SOC_MSM8996 && SND_SOC_MSM8998) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_APQ8084 || SND_SOC_MSM8994 || SND_SOC_MSM8996 || SND_SOC_MSM8998 || SND_SOC_SDM660_COMMON))
+warning: (SND_SOC_INT_CODEC && SND_SOC_EXT_CODEC && SND_SOC_MSM8996 && SND_SOC_MSM8998) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_APQ8084 || SND_SOC_MSM8994 || SND_SOC_MSM8996 || SND_SOC_MSM8998 || SND_SOC_SDM660_COMMON))
+boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
+KCONFIG_SELINUX((null))
+KCONFIG_LOG_SELINUX((null))
+KCONFIG_TIMA((null))
+KCONFIG_VARIANT((null))
+KCONFIG_DEBUG((null))
+KCONFIG_DEBUG((null))
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+make: Leaving directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+make: Entering directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+make[1]: Entering directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --savedefconfig=defconfig Kconfig
+drivers/input/touchscreen/Kconfig:1238:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:21:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:22:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:23:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:24:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:24:warning: ignoring unsupported character ''
+drivers/Kconfig:237:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:6:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:6:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:8:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:9:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:10:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:11:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:12:warning: ignoring unsupported character ''
+warning: (SND_SOC_INT_CODEC && SND_SOC_EXT_CODEC && SND_SOC_MSM8996 && SND_SOC_MSM8998) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_APQ8084 || SND_SOC_MSM8994 || SND_SOC_MSM8996 || SND_SOC_MSM8998 || SND_SOC_SDM660_COMMON))
+warning: (SND_SOC_INT_CODEC && SND_SOC_EXT_CODEC && SND_SOC_MSM8996 && SND_SOC_MSM8998) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_APQ8084 || SND_SOC_MSM8994 || SND_SOC_MSM8996 || SND_SOC_MSM8998 || SND_SOC_SDM660_COMMON))
+boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
+make[1]: Leaving directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+make: Leaving directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+[ 39% 9/23] Building Kernel Image (Image.gz-dtb)
+make: Entering directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+make[1]: Entering directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+drivers/input/touchscreen/Kconfig:1238:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:21:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:22:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:23:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:24:warning: ignoring unsupported character ''
+drivers/input/touchscreen/sec_ts_dual/Kconfig:24:warning: ignoring unsupported character ''
+drivers/Kconfig:237:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:6:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:6:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:8:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:9:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:10:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:11:warning: ignoring unsupported character ''
+drivers/redriver/Kconfig:12:warning: ignoring unsupported character ''
+warning: (SND_SOC_INT_CODEC && SND_SOC_EXT_CODEC && SND_SOC_MSM8996 && SND_SOC_MSM8998) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_APQ8084 || SND_SOC_MSM8994 || SND_SOC_MSM8996 || SND_SOC_MSM8998 || SND_SOC_SDM660_COMMON))
+warning: (SND_SOC_INT_CODEC && SND_SOC_EXT_CODEC && SND_SOC_MSM8996 && SND_SOC_MSM8998) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_APQ8084 || SND_SOC_MSM8994 || SND_SOC_MSM8996 || SND_SOC_MSM8998 || SND_SOC_SDM660_COMMON))
+boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  Using /home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn as source for kernel
+  CHK     include/generated/utsrelease.h
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    /home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn/scripts/checksyscalls.sh
+make[2]: 'include/generated/vdso-offsets.h' is up to date.
+  CHK     include/generated/compile.h
+/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn/security/defex_lsm/Makefile:57: [DEFEX] VTS false 
+  GZIP    kernel/config_data.gz
+  CHK     kernel/config_data.h
+  DTC     arch/arm64/boot/dts/samsung/msm8998-sec-dreamq-chn-r07.dtb
+  DTC     arch/arm64/boot/dts/samsung/msm8998-sec-dreamq-chn-r03.dtb
+  DTC     arch/arm64/boot/dts/samsung/msm8998-sec-dreamq-chn-r12.dtb
+  DTC     arch/arm64/boot/dts/samsung/msm8998-sec-dreamq-chn-r06.dtb
+  DTC     arch/arm64/boot/dts/samsung/msm8998-sec-dreamq-chn-r09.dtb
+  CAT     arch/arm64/boot/Image.gz-dtb
+make[1]: Leaving directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+make: Leaving directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+Building DTBs
+make: Entering directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+make[1]: Entering directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  Using /home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn as source for kernel
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    /home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn/scripts/checksyscalls.sh
+make[2]: 'include/generated/vdso-offsets.h' is up to date.
+make[1]: Leaving directory '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/KERNEL_OBJ'
+make: Leaving directory '/home/baolong24/lineage-17.1/kernel/samsung/dreamqltechn'
+[ 43% 10/23] target Prebuilt: robolectric_android-all-stub (out/target/product/dreamqlte/kernel)
+[ 47% 11/23] Target boot image: out/target/product/dreamqlte/boot.img
+[ 52% 12/23] ----- Making uncompressed recovery ramdisk ------
+[ 56% 13/23] ----- Making compressed recovery ramdisk ------
+[ 60% 14/23] ----- Making recovery image ------
+[ 65% 15/23] Target build info: out/target/product/dreamqlte/system/build.prop
+[ 69% 16/23] build out/target/product/dreamqlte/system/etc/recovery-resource.dat
+[ 73% 17/23] build out/target/product/dreamqlte/obj/NOTICE.html
+[ 78% 18/23] build out/target/product/dreamqlte/obj/NOTICE.html.gz
+[ 82% 19/23] build out/target/product/dreamqlte/system/etc/NOTICE.html.gz
+[ 86% 20/23] Verifying framework VINTF manifest.
+[ 91% 21/23] Package target files: out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24.zip
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read VENDOR/build.prop
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read VENDOR/etc/build.prop
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read ODM/build.prop
+2021-06-28 21:20:13 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read VENDOR/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read VENDOR/etc/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read ODM/build.prop
+2021-06-28 21:20:28 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2021-06-28 21:20:28 - add_img_to_target_files - INFO    : 
+
+++++ boot  ++++
+
+
+2021-06-28 21:20:28 - common.py - INFO    : building image from target_files BOOT...
+2021-06-28 21:20:28 - common.py - INFO    :   Running: "mkbootfs -f /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/boot_filesystem_config.txt /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/BOOT/RAMDISK"
+2021-06-28 21:20:28 - common.py - INFO    :   Running: "minigzip"
+2021-06-28 21:20:28 - common.py - INFO    :   Running: "out/host/linux-x86/bin/mkbootimg --kernel /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/BOOT/kernel --cmdline androidboot.console=ttyMSM0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=2048 androidboot.init_fatal_reboot_target=recovery androidboot.selinux=permissive buildvariant=eng --base 0x00008000 --pagesize 4096 --ramdisk_offset 0x02000000 --os_version 10 --os_patch_level 2021-06-05 --ramdisk /home/baolong24/lineage-17.1/out/soong/.temp/tmpje2OUG --output /home/baolong24/lineage-17.1/out/soong/.temp/tmpDdwyMm"
+2021-06-28 21:20:29 - common.py - INFO    : 
+2021-06-28 21:20:29 - common.py - INFO    :   Running: "boot_signer /boot /home/baolong24/lineage-17.1/out/soong/.temp/tmpDdwyMm build/make/target/product/security/verity.pk8 build/make/target/product/security/verity.x509.pem /home/baolong24/lineage-17.1/out/soong/.temp/tmpDdwyMm"
+2021-06-28 21:20:30 - common.py - INFO    : 
+2021-06-28 21:20:30 - add_img_to_target_files - INFO    : 
+
+++++ recovery  ++++
+
+
+2021-06-28 21:20:30 - common.py - INFO    : building image from target_files RECOVERY...
+2021-06-28 21:20:30 - common.py - INFO    :   Running: "mkbootfs -f /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/recovery_filesystem_config.txt /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/RECOVERY/RAMDISK"
+2021-06-28 21:20:30 - common.py - INFO    :   Running: "minigzip"
+2021-06-28 21:20:31 - common.py - INFO    :   Running: "out/host/linux-x86/bin/mkbootimg --kernel /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/RECOVERY/kernel --cmdline androidboot.console=ttyMSM0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=2048 androidboot.init_fatal_reboot_target=recovery androidboot.selinux=permissive buildvariant=eng --base 0x00008000 --pagesize 4096 --ramdisk_offset 0x02000000 --os_version 10 --os_patch_level 2021-06-05 --ramdisk /home/baolong24/lineage-17.1/out/soong/.temp/tmpeD1uTw --output /home/baolong24/lineage-17.1/out/soong/.temp/tmpP_cW3H"
+2021-06-28 21:20:31 - common.py - INFO    : 
+2021-06-28 21:20:31 - common.py - INFO    :   Running: "boot_signer /recovery /home/baolong24/lineage-17.1/out/soong/.temp/tmpP_cW3H build/make/target/product/security/verity.pk8 build/make/target/product/security/verity.x509.pem /home/baolong24/lineage-17.1/out/soong/.temp/tmpP_cW3H"
+2021-06-28 21:20:33 - common.py - INFO    : 
+2021-06-28 21:20:33 - add_img_to_target_files - INFO    : 
+
+++++ recovery (two-step image)  ++++
+
+
+2021-06-28 21:20:33 - common.py - INFO    : building image from target_files RECOVERY...
+2021-06-28 21:20:33 - common.py - INFO    :   Running: "mkbootfs -f /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/recovery_filesystem_config.txt /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/RECOVERY/RAMDISK"
+2021-06-28 21:20:33 - common.py - INFO    :   Running: "minigzip"
+2021-06-28 21:20:34 - common.py - INFO    :   Running: "out/host/linux-x86/bin/mkbootimg --kernel /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/RECOVERY/kernel --cmdline androidboot.console=ttyMSM0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=2048 androidboot.init_fatal_reboot_target=recovery androidboot.selinux=permissive buildvariant=eng --base 0x00008000 --pagesize 4096 --ramdisk_offset 0x02000000 --os_version 10 --os_patch_level 2021-06-05 --ramdisk /home/baolong24/lineage-17.1/out/soong/.temp/tmpw4892K --output /home/baolong24/lineage-17.1/out/soong/.temp/tmpsJOz0i"
+2021-06-28 21:20:34 - common.py - INFO    : 
+2021-06-28 21:20:34 - common.py - INFO    :   Running: "boot_signer /boot /home/baolong24/lineage-17.1/out/soong/.temp/tmpsJOz0i build/make/target/product/security/verity.pk8 build/make/target/product/security/verity.x509.pem /home/baolong24/lineage-17.1/out/soong/.temp/tmpsJOz0i"
+2021-06-28 21:20:36 - common.py - INFO    : 
+2021-06-28 21:20:36 - add_img_to_target_files - INFO    : 
+
+++++ system  ++++
+
+
+2021-06-28 21:20:36 - add_img_to_target_files - INFO    : Building new recovery patch
+2021-06-28 21:20:36 - common.py - INFO    :   Running: "imgdiff -b /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/SYSTEM/etc/recovery-resource.dat /home/baolong24/lineage-17.1/out/soong/.temp/tmp2Wi0r4 /home/baolong24/lineage-17.1/out/soong/.temp/tmp3gbsrP /home/baolong24/lineage-17.1/out/soong/.temp/tmpHGmxDe"
+2021-06-28 21:20:46 - add_img_to_target_files - INFO    : creating system.img...
+2021-06-28 21:20:52 - verity_utils.py - INFO    : Calculated image size for verity: partition_size 4478795776, image_size 4408901632, verity_size 69894144
+2021-06-28 21:20:52 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/baolong24/lineage-17.1/out/soong/.temp/tmpPBCuXg /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img ext4 / 4408901632 -j 0 -T 1230768000 -C /home/baolong24/lineage-17.1/out/soong/.temp/merged_fs_configLViTYj.txt -B /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.map -L / -M 0 -U 0eed1281-2c1e-5e14-b9e7-e7dd326bb754 -S e6ad1319-2c6f-5d0c-bf3f-96cc45606686 --inode_size 256 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/file_contexts.bin"
+2021-06-28 21:21:56 - common.py - INFO    : 21:20:52 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/baolong24/lineage-17.1/out/soong/.temp/tmpQ1ntlL'}
+21:20:52 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L / -I 256 -M / -m 0 -U 0eed1281-2c1e-5e14-b9e7-e7dd326bb754 -E android_sparse,hash_seed=e6ad1319-2c6f-5d0c-bf3f-96cc45606686 -t ext4 -b 4096 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img 1076392
+21:20:53 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+21:20:53 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/baolong24/lineage-17.1/out/soong/.temp/merged_fs_configLViTYj.txt -B /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.map -S /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/file_contexts.bin -f /home/baolong24/lineage-17.1/out/soong/.temp/tmpPBCuXg -a / /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 1076392 4k blocks and 269280 inodes
+Filesystem UUID: 0eed1281-2c1e-5e14-b9e7-e7dd326bb754
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736
+
+Allocating group tables:  0/33     done                            
+Writing inode tables:  0/33     done                            
+Writing superblocks and filesystem accounting information:  0/33     done
+
+
+loaded 4614 fs_config entries
+Created filesystem with 4623/269280 inodes and 402425/1076392 blocks
+2021-06-28 21:21:56 - common.py - INFO    :   Running: "simg2img /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/unsparse_system.img"
+2021-06-28 21:21:57 - common.py - INFO    : 
+2021-06-28 21:21:57 - common.py - INFO    :   Running: "e2fsck -f -n /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/unsparse_system.img"
+2021-06-28 21:22:34 - common.py - INFO    : e2fsck 1.44.4 (18-Aug-2018)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+/: 4623/269280 files (0.6% non-contiguous), 402425/1076392 blocks
+2021-06-28 21:22:34 - common.py - INFO    :   Running: "build_verity_tree -A aee087a5be3b982978c923f566a94613496b417f2af592639bc80d141e34dfe7 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img /home/baolong24/lineage-17.1/out/soong/.temp/tmppV5dHv_verity_images/verity.img"
+2021-06-28 21:22:40 - common.py - INFO    : 7c34b0f89e7c1c7398ae753184e2c624184dba3bee1c0f16dc01603caf6b2054 aee087a5be3b982978c923f566a94613496b417f2af592639bc80d141e34dfe7
+2021-06-28 21:22:40 - common.py - INFO    :   Running: "build_verity_metadata build 4408901632 /home/baolong24/lineage-17.1/out/soong/.temp/tmppV5dHv_verity_images/verity_metadata.img 7c34b0f89e7c1c7398ae753184e2c624184dba3bee1c0f16dc01603caf6b2054 aee087a5be3b982978c923f566a94613496b417f2af592639bc80d141e34dfe7 /dev/block/bootdevice/by-name/system verity_signer build/make/target/product/security/verity.pk8 --verity_disable"
+2021-06-28 21:22:41 - common.py - INFO    : ['verity_signer', '/home/baolong24/lineage-17.1/out/soong/.temp/tmpvAdMmX.table', 'build/make/target/product/security/verity.pk8', '/home/baolong24/lineage-17.1/out/soong/.temp/tmppMDAtL.sig']
+2021-06-28 21:22:41 - common.py - INFO    :   Running: "fec -e -p 0 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img /home/baolong24/lineage-17.1/out/soong/.temp/tmppV5dHv_verity_images/verity.img /home/baolong24/lineage-17.1/out/soong/.temp/tmppV5dHv_verity_images/verity_fec.img"
+2021-06-28 21:22:50 - common.py - INFO    : encoding RS(255, 253) to '/home/baolong24/lineage-17.1/out/soong/.temp/tmppV5dHv_verity_images/verity_fec.img' for input files:
+	1: '/home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img'
+	2: '/home/baolong24/lineage-17.1/out/soong/.temp/tmppV5dHv_verity_images/verity.img'
+2021-06-28 21:22:50 - common.py - INFO    :   Running: "append2simg /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/system.img /home/baolong24/lineage-17.1/out/soong/.temp/tmppV5dHv_verity_images/verity.img"
+2021-06-28 21:23:12 - common.py - INFO    : 
+2021-06-28 21:23:12 - add_img_to_target_files - INFO    : 
+
+++++ userdata  ++++
+
+
+2021-06-28 21:23:12 - add_img_to_target_files - INFO    : creating userdata.img...
+2021-06-28 21:23:12 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/baolong24/lineage-17.1/out/soong/.temp/tmpXv9qA1 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/userdata.img ext4 data 58543898624 -T 1230768000 -L data --inode_size 256 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/file_contexts.bin"
+2021-06-28 21:23:13 - common.py - INFO    : 21:23:12 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/baolong24/lineage-17.1/out/soong/.temp/tmpsYs7cg'}
+21:23:13 mkuserimg_mke2fs.py INFO: Running: mke2fs -L data -I 256 -M /data -E android_sparse -t ext4 -b 4096 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/userdata.img 14292944
+21:23:13 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+21:23:13 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -S /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/file_contexts.bin -f /home/baolong24/lineage-17.1/out/soong/.temp/tmpXv9qA1 -a /data /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/userdata.img
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 14292944 4k blocks and 3579904 inodes
+Filesystem UUID: 2b75b2e0-7eba-4ff7-ad06-cb1a1b32875c
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+	4096000, 7962624, 11239424
+
+Allocating group tables:   0/437       done                            
+Writing inode tables:   0/437       done                            
+Creating journal (65536 blocks): done
+Writing superblocks and filesystem accounting information:   0/437       done
+
+
+Created filesystem with 11/3579904 inodes and 303485/14292944 blocks
+2021-06-28 21:23:13 - common.py - INFO    :   Running: "simg2img /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/userdata.img /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/unsparse_userdata.img"
+2021-06-28 21:23:13 - common.py - INFO    : 
+2021-06-28 21:23:13 - common.py - INFO    :   Running: "e2fsck -f -n /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/unsparse_userdata.img"
+2021-06-28 21:23:13 - common.py - INFO    : e2fsck 1.44.4 (18-Aug-2018)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+data: 11/3579904 files (0.0% non-contiguous), 303485/14292944 blocks
+2021-06-28 21:23:13 - common.py - INFO    :   userdata size (163) is 0.00% of limit (58543898624)
+2021-06-28 21:23:13 - add_img_to_target_files - INFO    : 
+
+++++ cache  ++++
+
+
+2021-06-28 21:23:13 - add_img_to_target_files - INFO    : creating cache.img...
+2021-06-28 21:23:13 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/baolong24/lineage-17.1/out/soong/.temp/tmpKYRZSA /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/cache.img ext4 cache 402653184 -T 1230768000 -L cache --inode_size 256 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/file_contexts.bin"
+2021-06-28 21:23:13 - common.py - INFO    : 21:23:13 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/baolong24/lineage-17.1/out/soong/.temp/tmpLYHNQx'}
+21:23:13 mkuserimg_mke2fs.py INFO: Running: mke2fs -L cache -I 256 -M /cache -E android_sparse -t ext4 -b 4096 /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/cache.img 98304
+21:23:13 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+21:23:13 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -S /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/META/file_contexts.bin -f /home/baolong24/lineage-17.1/out/soong/.temp/tmpKYRZSA -a /cache /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/cache.img
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 98304 4k blocks and 98304 inodes
+Filesystem UUID: 7ff758e5-8696-4cb2-b15f-485d808bed4d
+Superblock backups stored on blocks: 
+	32768
+
+Allocating group tables: 0/3   done                            
+Writing inode tables: 0/3   done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: 0/3   done
+
+
+Created filesystem with 11/98304 inodes and 10302/98304 blocks
+2021-06-28 21:23:13 - common.py - INFO    :   Running: "simg2img /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/cache.img /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/unsparse_cache.img"
+2021-06-28 21:23:14 - common.py - INFO    : 
+2021-06-28 21:23:14 - common.py - INFO    :   Running: "e2fsck -f -n /home/baolong24/lineage-17.1/out/target/product/dreamqlte/obj/PACKAGING/target_files_intermediates/lineage_dreamqlte-target_files-eng.baolong24/IMAGES/unsparse_cache.img"
+2021-06-28 21:23:14 - common.py - INFO    : e2fsck 1.44.4 (18-Aug-2018)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+cache: 11/98304 files (0.0% non-contiguous), 10302/98304 blocks
+2021-06-28 21:23:14 - common.py - INFO    :   cache size (160) is 0.00% of limit (402653184)
+2021-06-28 21:23:14 - add_img_to_target_files - INFO    : 
+
+++++ radio  ++++
+
+
+2021-06-28 21:23:14 - add_img_to_target_files - INFO    : done.
+[ 95% 22/23] Package OTA: out/target/product/dreamqlte/lineage_dreamqlte-ota-eng.baolong24.zip
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read VENDOR/build.prop
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read VENDOR/etc/build.prop
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read ODM/build.prop
+2021-06-28 21:23:22 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2021-06-28 21:23:22 - ota_from_target_files - INFO    : --- target info ---
+2021-06-28 21:23:22 - common.py - INFO    : blockimgdiff_versions     = (str) 3,4
+2021-06-28 21:23:22 - common.py - INFO    : blocksize                 = (int) 262144
+2021-06-28 21:23:22 - common.py - INFO    : boot_signer               = (str) true
+2021-06-28 21:23:22 - common.py - INFO    : boot_size                 = (int) 67108864
+2021-06-28 21:23:22 - common.py - INFO    : build.prop                = (dict) {'dalvik.vm.heapminfree': '8m', 'vendor.audio.offload.buffer.size.kb': '32', 'ro.product.cpu.abilist': 'arm64-v8a,armeabi-v7a,armeabi', 'ro.build.product': 'dreamqlte', 'ro.build.id': 'QQ3A.200805.001', 'persist.vendor.radio.force_on_dc': 'true', 'ro.product.cpu.abilist32': 'armeabi-v7a,armeabi', 'ro.vendor.build.security_patch': '2021-04-01', 'debug.sf.enable_gl_backpressure': '1', 'ro.treble.enabled': 'false', 'debug.stagefright.omx_default_rank.sw-audio': '1', 'ro.frp.pst': '/dev/block/persistent', 'af.fast_track_multiplier': '1', 'vendor.audio.offload.passthrough': 'false', 'dalvik.vm.heapmaxfree': '16m', 'persist.vendor.radio.custom_ecc': '1', 'ro.build.fingerprint': 'samsung/dreamqltezh/dreamqltechn:9/PPR1.180610.011/G9500ZHU6DTL1:user/release-keys', 'vendor.audio.flac.sw.decoder.24bit': 'true', 'persist.vendor.audio.fluence.voicecall': 'true', 'ro.system.build.version.sdk': '29', 'ro.build.description': 'dreamqltezh-user 9 PPR1.180610.011 G9500ZHS6DUD1 release-keys', 'ro.system.build.tags': 'test-keys', 'dalvik.vm.heapstartsize': '8m', 'wifi.interface': 'wlan0', 'ro.lineage.display.version': '17.1-20210628-UNOFFICIAL-dreamqlte', 'ro.system.build.fingerprint': 'samsung/dreamqltezh/dreamqltechn:9/PPR1.180610.011/G9500ZHU6DTL1:user/release-keys', 'ro.product.system.model': 'SM-G9500', 'ro.vendor.audio.sdk.fluencetype': 'none', 'persist.cne.feature': '0', 'ro.system.build.type': 'eng', 'ro.build.date': 'Mon Jun 28 20:04:39 CST 2021', 'persist.vendor.audio.fluence.speaker': 'true', 'dalvik.vm.heaptargetutilization': '0.6', 'ro.build.host': '3e4e5ddd95c6', 'ro.build.version.security_patch': '2021-06-05', 'vendor.audio.offload.pstimeout.secs': '3', 'vendor.audio.offload.track.enable': 'true', 'ro.product.locale': 'en-US', 'ro.carrier': 'unknown', 'persist.debug.dalvik.vm.core_platform_api_policy': 'just-warn', 'audio.offload.video': 'true', 'vendor.display.disable_rotator_downscale': '1', 'ro.system.build.id': 'QQ3A.200805.001', 'vendor.audio.parser.ip.buffer.size': '262144', 'vendor.voice.path.for.pcm.voip': 'true', 'ro.build.version.min_supported_target_sdk': '23', 'vendor.audio_hal.period_size': '192', 'ro.product.cpu.abilist64': 'arm64-v8a', 'persist.radio.multisim.config': 'dsds', 'vendor.gralloc.enable_fb_ubwc': '1', 'ro.vendor.extension_library': 'libqti-perfd-client.so', 'ro.build.flavor': 'lineage_dreamqlte-eng', 'audio.deep_buffer.media': 'true', 'ro.lineagelegal.url': 'https://lineageos.org/legal', 'ro.build.version.release': '10', 'ro.build.version.codename': 'REL', 'net.bt.name': 'Android', 'ro.product.system.name': 'dreamqltezh', 'ro.build.type': 'eng', 'ro.opengles.version': '196610', 'persist.data.mode': 'concurrent', 'ro.build.display.id': 'lineage_dreamqlte-eng 10 QQ3A.200805.001 eng.baolon.20210628.200526 test-keys', 'dalvik.vm.heapsize': '512m', 'persist.vendor.radio.rat_on': 'combine', 'persist.vendor.radio.sib16_support': '1', 'ro.product.system.brand': 'samsung', 'ro.build.version.preview_sdk': '0', 'debug.sf.enable_hwc_vds': '1', 'debug.stagefright.omx_default_rank': '0', 'ro.modversion': '17.1-20210628-UNOFFICIAL-dreamqlte', 'vendor.audio.offload.multiaac.enable': 'true', 'ro.system.build.version.incremental': 'eng.baolon.20210628.200526', 'ro.use_data_netmgrd': 'true', 'persist.vendor.bt.a2dp_offload_cap': 'sbc-aptx-aptxhd-aac', 'qcom.bluetooth.soc': 'cherokee', 'ro.build.date.utc': '1624881879', 'ro.lineage.releasetype': 'UNOFFICIAL', 'keyguard.no_require_sim': 'true', 'ro.build.version.all_codenames': 'REL', 'ro.product.system.device': 'dreamqlte', 'dalvik.vm.lockprof.threshold': '500', 'vendor.audio.dolby.ds2.enabled': 'false', 'vendor.audio.dolby.ds2.hardbypass': 'false', 'telephony.lteOnCdmaDevice': '1', 'ro.kernel.android.checkjni': '1', 'persist.sys.wfd.virtual': '0', 'ro.product.cpu.abi': 'arm64-v8a', 'debug.sf.latch_unsignaled': '1', 'ro.build.version.base_os': '', 'vendor.display.perf_hint_window': '50', 'vendor.audio.safx.pbe.enabled': 'true', 'vendor.audio.noisy.broadcast.delay': '600', 'ro.wifi.channels': '', 'ro.product.system.manufacturer': 'samsung', 'vendor.display.disable_partial_split': '1', 'audio.adm.buffering.ms': '6', 'vendor.audio.hw.aac.encoder': 'true', 'persist.vendor.data.iwlan.enable': 'true', 'ro.telephony.default_network': '22,22', 'ro.build.version.incremental': 'eng.baolon.20210628.200526', 'persist.vendor.audio.fluence.voicerec': 'false', 'ro.build.tags': 'test-keys', 'ro.system.build.date.utc': '1624881879', 'dalvik.vm.image-dex2oat-filter': 'verify-at-runtime', 'ro.sf.lcd_density': '480', 'ro.build.version.sdk': '29', 'ro.lineage.build.version': '17.1', 'ro.lineage.build.version.plat.sdk': '9', 'ro.lineage.device': 'dreamqlte', 'ro.build.user': 'baolong24', 'vendor.audio.use.sw.ape.decoder': 'true', 'rild.libpath': '/system/vendor/lib64/libril-qc-qmi-1.so', 'debug.sf.hw': '1', 'vendor.audio.tunnel.encode': 'false', 'persist.vendor.audio.ras.enabled': 'false', 'ro.system.build.date': 'Mon Jun 28 20:04:39 CST 2021', 'vendor.audio.offload.gapless.enabled': 'true', 'ro.vendor.audio.sdk.ssr': 'false', 'ro.system.build.version.release': '10', 'vendor.display.disable_skip_validate': '1', 'ro.lineage.build.version.plat.rev': '0', 'dalvik.vm.heapgrowthlimit': '192m', 'vendor.audio.offload.multiple.enabled': 'false', 'ro.lineage.version': '17.1-20210628-UNOFFICIAL-dreamqlte', 'ro.build.version.preview_sdk_fingerprint': 'REL', 'vendor.audio.use.sw.alac.decoder': 'true'}
+2021-06-28 21:23:22 - common.py - INFO    : cache_fs_type             = (str) ext4
+2021-06-28 21:23:22 - common.py - INFO    : cache_size                = (int) 402653184
+2021-06-28 21:23:22 - common.py - INFO    : default_system_dev_certificate = (str) build/make/target/product/security/testkey
+2021-06-28 21:23:22 - common.py - INFO    : ext_mkuserimg             = (str) mkuserimg_mke2fs
+2021-06-28 21:23:22 - common.py - INFO    : extfs_sparse_flag         = (str) -s
+2021-06-28 21:23:22 - common.py - INFO    : extra_recovery_keys       = (str) vendor/lineage/build/target/product/security/lineage
+2021-06-28 21:23:22 - common.py - INFO    : fs_type                   = (str) ext4
+2021-06-28 21:23:22 - common.py - INFO    : fstab                     = (dict) {'none': <common.Partition object at 0x7f5a403fa550>, '/cache': <common.Partition object at 0x7f5a403fa5d0>, '/data': <common.Partition object at 0x7f5a403fa510>, '/system': <common.Partition object at 0x7f5a403fa4d0>, '/boot': <common.Partition object at 0x7f5a403fa610>, '/misc': <common.Partition object at 0x7f5a403fa590>}
+2021-06-28 21:23:22 - common.py - INFO    : fstab_version             = (int) 2
+2021-06-28 21:23:22 - common.py - INFO    : lpmake                    = (str) lpmake
+2021-06-28 21:23:22 - common.py - INFO    : mkbootimg_args            = (str) 
+2021-06-28 21:23:22 - common.py - INFO    : mkbootimg_version_args    = (str) --os_version 10 --os_patch_level 2021-06-05
+2021-06-28 21:23:22 - common.py - INFO    : multistage_support        = (str) 1
+2021-06-28 21:23:22 - common.py - INFO    : odm.build.prop            = (dict) {}
+2021-06-28 21:23:22 - common.py - INFO    : ota_override_device       = (str) dreamqlte, dreamqltechn
+2021-06-28 21:23:22 - common.py - INFO    : product.build.prop        = (dict) {}
+2021-06-28 21:23:22 - common.py - INFO    : product_services.build.prop = (dict) {}
+2021-06-28 21:23:22 - common.py - INFO    : recovery_api_version      = (int) 3
+2021-06-28 21:23:22 - common.py - INFO    : recovery_mount_options    = (str) ext4=max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc
+2021-06-28 21:23:22 - common.py - INFO    : recovery_size             = (int) 67108864
+2021-06-28 21:23:22 - common.py - INFO    : root_dir                  = (str) out/target/product/dreamqlte/root
+2021-06-28 21:23:22 - common.py - INFO    : selinux_fc                = (str) out/target/product/dreamqlte/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2021-06-28 21:23:22 - common.py - INFO    : squashfs_sparse_flag      = (str) -s
+2021-06-28 21:23:22 - common.py - INFO    : super_metadata_device     = (str) 
+2021-06-28 21:23:22 - common.py - INFO    : system.build.prop         = (dict) {'dalvik.vm.heapminfree': '8m', 'vendor.audio.offload.buffer.size.kb': '32', 'ro.product.cpu.abilist': 'arm64-v8a,armeabi-v7a,armeabi', 'ro.build.product': 'dreamqlte', 'ro.build.id': 'QQ3A.200805.001', 'persist.vendor.radio.force_on_dc': 'true', 'ro.product.cpu.abilist32': 'armeabi-v7a,armeabi', 'ro.vendor.build.security_patch': '2021-04-01', 'debug.sf.enable_gl_backpressure': '1', 'ro.treble.enabled': 'false', 'debug.stagefright.omx_default_rank.sw-audio': '1', 'ro.frp.pst': '/dev/block/persistent', 'af.fast_track_multiplier': '1', 'vendor.audio.offload.passthrough': 'false', 'dalvik.vm.heapmaxfree': '16m', 'persist.vendor.radio.custom_ecc': '1', 'ro.build.fingerprint': 'samsung/dreamqltezh/dreamqltechn:9/PPR1.180610.011/G9500ZHU6DTL1:user/release-keys', 'vendor.audio.flac.sw.decoder.24bit': 'true', 'persist.vendor.audio.fluence.voicecall': 'true', 'ro.system.build.version.sdk': '29', 'ro.build.description': 'dreamqltezh-user 9 PPR1.180610.011 G9500ZHS6DUD1 release-keys', 'ro.system.build.tags': 'test-keys', 'dalvik.vm.heapstartsize': '8m', 'wifi.interface': 'wlan0', 'ro.lineage.display.version': '17.1-20210628-UNOFFICIAL-dreamqlte', 'ro.system.build.fingerprint': 'samsung/dreamqltezh/dreamqltechn:9/PPR1.180610.011/G9500ZHU6DTL1:user/release-keys', 'ro.product.system.model': 'SM-G9500', 'ro.vendor.audio.sdk.fluencetype': 'none', 'persist.cne.feature': '0', 'ro.system.build.type': 'eng', 'ro.build.date': 'Mon Jun 28 20:04:39 CST 2021', 'persist.vendor.audio.fluence.speaker': 'true', 'dalvik.vm.heaptargetutilization': '0.6', 'ro.build.host': '3e4e5ddd95c6', 'ro.build.version.security_patch': '2021-06-05', 'vendor.audio.offload.pstimeout.secs': '3', 'vendor.audio.offload.track.enable': 'true', 'ro.product.locale': 'en-US', 'ro.carrier': 'unknown', 'persist.debug.dalvik.vm.core_platform_api_policy': 'just-warn', 'audio.offload.video': 'true', 'vendor.display.disable_rotator_downscale': '1', 'ro.system.build.id': 'QQ3A.200805.001', 'vendor.audio.parser.ip.buffer.size': '262144', 'vendor.voice.path.for.pcm.voip': 'true', 'ro.build.version.min_supported_target_sdk': '23', 'vendor.audio_hal.period_size': '192', 'ro.product.cpu.abilist64': 'arm64-v8a', 'persist.radio.multisim.config': 'dsds', 'vendor.gralloc.enable_fb_ubwc': '1', 'ro.vendor.extension_library': 'libqti-perfd-client.so', 'ro.build.flavor': 'lineage_dreamqlte-eng', 'audio.deep_buffer.media': 'true', 'ro.lineagelegal.url': 'https://lineageos.org/legal', 'ro.build.version.release': '10', 'ro.build.version.codename': 'REL', 'net.bt.name': 'Android', 'ro.product.system.name': 'dreamqltezh', 'ro.build.type': 'eng', 'ro.opengles.version': '196610', 'persist.data.mode': 'concurrent', 'ro.build.display.id': 'lineage_dreamqlte-eng 10 QQ3A.200805.001 eng.baolon.20210628.200526 test-keys', 'dalvik.vm.heapsize': '512m', 'persist.vendor.radio.rat_on': 'combine', 'persist.vendor.radio.sib16_support': '1', 'ro.product.system.brand': 'samsung', 'ro.build.version.preview_sdk': '0', 'debug.sf.enable_hwc_vds': '1', 'debug.stagefright.omx_default_rank': '0', 'ro.modversion': '17.1-20210628-UNOFFICIAL-dreamqlte', 'vendor.audio.offload.multiaac.enable': 'true', 'ro.system.build.version.incremental': 'eng.baolon.20210628.200526', 'ro.use_data_netmgrd': 'true', 'persist.vendor.bt.a2dp_offload_cap': 'sbc-aptx-aptxhd-aac', 'qcom.bluetooth.soc': 'cherokee', 'ro.build.date.utc': '1624881879', 'ro.lineage.releasetype': 'UNOFFICIAL', 'keyguard.no_require_sim': 'true', 'ro.build.version.all_codenames': 'REL', 'ro.product.system.device': 'dreamqlte', 'dalvik.vm.lockprof.threshold': '500', 'vendor.audio.dolby.ds2.enabled': 'false', 'vendor.audio.dolby.ds2.hardbypass': 'false', 'telephony.lteOnCdmaDevice': '1', 'ro.kernel.android.checkjni': '1', 'persist.sys.wfd.virtual': '0', 'ro.product.cpu.abi': 'arm64-v8a', 'debug.sf.latch_unsignaled': '1', 'ro.build.version.base_os': '', 'vendor.display.perf_hint_window': '50', 'vendor.audio.safx.pbe.enabled': 'true', 'vendor.audio.noisy.broadcast.delay': '600', 'ro.wifi.channels': '', 'ro.product.system.manufacturer': 'samsung', 'vendor.display.disable_partial_split': '1', 'audio.adm.buffering.ms': '6', 'vendor.audio.hw.aac.encoder': 'true', 'persist.vendor.data.iwlan.enable': 'true', 'ro.telephony.default_network': '22,22', 'ro.build.version.incremental': 'eng.baolon.20210628.200526', 'persist.vendor.audio.fluence.voicerec': 'false', 'ro.build.tags': 'test-keys', 'ro.system.build.date.utc': '1624881879', 'dalvik.vm.image-dex2oat-filter': 'verify-at-runtime', 'ro.sf.lcd_density': '480', 'ro.build.version.sdk': '29', 'ro.lineage.build.version': '17.1', 'ro.lineage.build.version.plat.sdk': '9', 'ro.lineage.device': 'dreamqlte', 'ro.build.user': 'baolong24', 'vendor.audio.use.sw.ape.decoder': 'true', 'rild.libpath': '/system/vendor/lib64/libril-qc-qmi-1.so', 'debug.sf.hw': '1', 'vendor.audio.tunnel.encode': 'false', 'persist.vendor.audio.ras.enabled': 'false', 'ro.system.build.date': 'Mon Jun 28 20:04:39 CST 2021', 'vendor.audio.offload.gapless.enabled': 'true', 'ro.vendor.audio.sdk.ssr': 'false', 'ro.system.build.version.release': '10', 'vendor.display.disable_skip_validate': '1', 'ro.lineage.build.version.plat.rev': '0', 'dalvik.vm.heapgrowthlimit': '192m', 'vendor.audio.offload.multiple.enabled': 'false', 'ro.lineage.version': '17.1-20210628-UNOFFICIAL-dreamqlte', 'ro.build.version.preview_sdk_fingerprint': 'REL', 'vendor.audio.use.sw.alac.decoder': 'true'}
+2021-06-28 21:23:22 - common.py - INFO    : system_fs_type            = (str) ext4
+2021-06-28 21:23:22 - common.py - INFO    : system_size               = (int) 4478795776
+2021-06-28 21:23:22 - common.py - INFO    : system_verity_block_device = (str) /dev/block/bootdevice/by-name/system
+2021-06-28 21:23:22 - common.py - INFO    : tool_extensions           = (str) device/samsung/dreamqlte/../common
+2021-06-28 21:23:22 - common.py - INFO    : use_set_metadata          = (str) 1
+2021-06-28 21:23:22 - common.py - INFO    : userdata_size             = (int) 58543898624
+2021-06-28 21:23:22 - common.py - INFO    : vendor.build.prop         = (dict) {}
+2021-06-28 21:23:22 - common.py - INFO    : verity                    = (str) true
+2021-06-28 21:23:22 - common.py - INFO    : verity_disable            = (str) true
+2021-06-28 21:23:22 - common.py - INFO    : verity_fec                = (str) true
+2021-06-28 21:23:22 - common.py - INFO    : verity_key                = (str) build/make/target/product/security/verity
+2021-06-28 21:23:22 - common.py - INFO    : verity_signer_cmd         = (str) verity_signer
+2021-06-28 21:23:22 - common.py - INFO    :   Running: "openssl pkcs8 -in build/make/target/product/security/testkey.pk8 -inform DER -nocrypt"
+2021-06-28 21:23:22 - common.py - INFO    : unable to load device-specific module; assuming none
+2021-06-28 21:23:22 - sparse_img.py - INFO    : Total of 1093456 4096-byte output blocks in 43 input chunks.
+2021-06-28 21:23:28 - blockimgdiff.py - INFO    : Finding transfers...
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    : Generating digraph...
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    : Finding vertex sequence...
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    : Reversing backward edges...
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    :   0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    : Improving vertex order...
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    : Revising stash size...
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    : Revising stash size...
+2021-06-28 21:23:35 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2021-06-28 21:23:41 - blockimgdiff.py - INFO    : Reticulating splines...
+2021-06-28 21:23:44 - blockimgdiff.py - INFO    : 1642749952 1642749952 (100.00%)     new __DATA 0-554 776-32769 33032 33544-65536 66048-98305 98568 99080-131072 131584-163841 164104 164616-196608 197120-229377 229640 230152-262144 262656-294913 295176 295688-327680 328192-360448 360960-391144 819200-819201 884736-884737 1048576 1076392-1093455
+2021-06-28 21:23:44 - blockimgdiff.py - INFO    : max stashed blocks: 0  (0 bytes), limit: 322122547 bytes (0.00%)
+
+2021-06-28 21:23:44 - blockimgdiff.py - INFO    :   Imgdiff Stats Report  
+2021-06-28 21:23:44 - blockimgdiff.py - INFO    : ========================
+
+2021-06-28 21:23:44 - common.py - INFO    : using prebuilt recovery.img from IMAGES...
+2021-06-28 21:23:44 - common.py - INFO    :   Running: "brotli --quality=6 --output=/home/baolong24/lineage-17.1/out/soong/.temp/tmpDZjj9D/system.new.dat.br /home/baolong24/lineage-17.1/out/soong/.temp/tmpDZjj9D/system.new.dat"
+2021-06-28 21:25:40 - common.py - INFO    : 
+2021-06-28 21:25:42 - common.py - INFO    : using prebuilt boot.img from IMAGES...
+2021-06-28 21:25:42 - common.py - INFO    :   boot size (17900840) is 26.67% of limit (67108864)
+2021-06-28 21:25:51 - common.py - INFO    :   Running: "java -Xmx2048m -Djava.library.path=out/host/linux-x86/lib64 -jar out/host/linux-x86/framework/signapk.jar -w build/make/target/product/security/testkey.x509.pem build/make/target/product/security/testkey.pk8 /home/baolong24/lineage-17.1/out/soong/.temp/tmpOs3io9.zip /home/baolong24/lineage-17.1/out/soong/.temp/tmp0CWs2N.zip"
+2021-06-28 21:26:06 - common.py - INFO    :   Running: "zip -d /home/baolong24/lineage-17.1/out/soong/.temp/tmp0CWs2N.zip META-INF/com/android/metadata"
+2021-06-28 21:26:07 - common.py - INFO    : deleting: META-INF/com/android/metadata
+2021-06-28 21:26:07 - common.py - INFO    :   Running: "java -Xmx2048m -Djava.library.path=out/host/linux-x86/lib64 -jar out/host/linux-x86/framework/signapk.jar -w build/make/target/product/security/testkey.x509.pem build/make/target/product/security/testkey.pk8 /home/baolong24/lineage-17.1/out/soong/.temp/tmp0CWs2N.zip out/target/product/dreamqlte/lineage_dreamqlte-ota-eng.baolong24.zip"
+2021-06-28 21:26:12 - ota_from_target_files - INFO    : done.
+Compressing system.new.dat with brotli
+[100% 23/23] build bacon
+Package Complete: out/target/product/dreamqlte/lineage-17.1-20210628-UNOFFICIAL-dreamqlte.zip
+
+[0;32m#### build completed successfully (06:48 (mm:ss)) ####[00m
+
